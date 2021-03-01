@@ -1,9 +1,9 @@
-import { getNepalCelebrities } from "./nepalCelebritiesData";
-import { nepalCelebrities } from ".nepalCelebrities.js";
+import { getNepalCelebrities } from "./nepalCelebritiesData.js";
+import { nepalCelebrities } from "./nepalCelebritiesList.js";
 
 export const nepalCelebritiesList = () => {
     const allNepalCelebrities = getNepalCelebrities ();
-    const DOMLocation = document.querySelector("#nepalCelebrityList");
+    const DOMLocation = document.querySelector(".nepalCelebrityList");
     let  nepalCelebrityHTMLRepresentations = "";
 
     for(const oneThingFromNepalCelebrity of allNepalCelebrities) {
@@ -11,5 +11,5 @@ export const nepalCelebritiesList = () => {
 
     }
     console.log("nepalCelebrityHTMLRepresentations", nepalCelebrityHTMLRepresentations);
-    DOMLocation.innerHTML = nepalCelebrityHTMLRepresentations;
+    DOMLocation.innerHTML += nepalCelebrityHTMLRepresentations;
 };

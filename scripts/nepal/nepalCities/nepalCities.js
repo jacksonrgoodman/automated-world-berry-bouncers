@@ -1,11 +1,11 @@
 
 
 import { getNepalCities } from "./nepalCitiesData.js";
-import { nepalCities } from "./nepalCities.js";
+import { nepalCities } from "./nepalCitiesList.js";
 
 export const nepalCitiesList = () => {
     const allNepalCities = getNepalCities ();
-    const DOMLocation = document.querySelector("#nepalCitiesList");
+    const DOMLocation = document.querySelector(".nepalCitiesList");
     let  nepalCitiesHTMLRepresentations = "";
 
     for(const oneThingFromNepalCities of allNepalCities) {
@@ -13,5 +13,5 @@ export const nepalCitiesList = () => {
 
     }
     console.log("nepalCitiesHTMLRepresentations", nepalCitiesHTMLRepresentations);
-    DOMLocation.innerHTML = nepalCitiesHTMLRepresentations;
+    DOMLocation.innerHTML += nepalCitiesHTMLRepresentations;
 };

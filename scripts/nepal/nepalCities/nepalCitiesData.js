@@ -1,4 +1,4 @@
-nepalCityObject = [
+const nepalCityObject = [
 {
     name: "Kathmandu",
     population: "1,442,271",

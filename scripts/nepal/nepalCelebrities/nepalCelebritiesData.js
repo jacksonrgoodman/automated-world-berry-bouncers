@@ -1,4 +1,4 @@
-nepalCelebrityObject = [
+const nepalCelebrityObject = [
 {
     name: "Guatama Buddha",
     job: "philosopher",

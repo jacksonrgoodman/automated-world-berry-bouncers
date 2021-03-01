@@ -1,4 +1,4 @@
-nepalLandmarkObject = [
+const nepalLandmarkObject = [
 {
     name: "Mount Everest",
     desc: " On the border of Nepal and China lies the worlds highest mountain!",
