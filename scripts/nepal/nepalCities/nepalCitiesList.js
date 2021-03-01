@@ -1,5 +1,5 @@
 import { getNepalCities } from "./nepalCitiesData.js";
-import { nepalCities } from ".nepalCities.js";
+import { nepalCities } from "./nepalCities.js";
 
 export const nepalCitiesList = () => {
     const allNepalCities = getNepalCities ();
