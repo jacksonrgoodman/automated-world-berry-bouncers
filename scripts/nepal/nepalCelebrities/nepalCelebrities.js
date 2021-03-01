@@ -1,10 +1,15 @@
-export const nepalCelebrities = (nepalCelebritiesObj) => {
-    return(
-        `<article class="celebrity-card>
-        <div><img class="celebrity-image" src =${nepalCelebritiesObj.img} alt="celebrity"></div>
-        <h3 class ="celebrity-name">${nepalCelebritiesObj.name}</h3>
-        <p class ="celebrity-bio">${nepalCelebritiesObj.bio}</p>
-        <p class = "celebrity-job">${nepalCelebritiesObj.job}</p>
-        </article>`
-    );
-}; 
+import { getNepalCelebrities } from "./nepalCelebritiesData";
+import { nepalCelebrities } from ".nepalCelebrities.js";
+
+export const nepalCelebritiesList = () => {
+    const allNepalCelebrities = getNepalCelebrities ();
+    const DOMLocation = document.querySelector("#nepalCelebrityList");
+    let  nepalCelebrityHTMLRepresentations = "";
+
+    for(const oneThingFromNepalCelebrity of allNepalCelebrities) {
+        nepalCelebrityHTMLRepresentations += nepalCelebrities(oneThingFromNepalCelebrity);
+
+    }
+    console.log("nepalCelebrityHTMLRepresentations", nepalCelebrityHTMLRepresentations);
+    DOMLocation.innerHTML = nepalCelebrityHTMLRepresentations;
+};

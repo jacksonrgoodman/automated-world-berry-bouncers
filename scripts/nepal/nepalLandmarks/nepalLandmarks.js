@@ -1,10 +1,15 @@
-export const nepalLandmarks = (nepalLandmarksObj) => {
-    return(
-        `<article class="landmarks-card>
-        <div><img class="landmarks-image" src =${nepalLandmarksObj.img} alt="landmark"></div>
-        <h3 class ="landmarks-name">${nepalLandmarksObj.name}</h3>
-        <p class ="landmarks-desc">${nepalLandmarksObj.desc}</p>
-        <p class = "landmarks-closest-city"> The closest city to ${nepalLandmarksObj.name} is ${nepalLandmarksObj.closestCity}.</p>
-        </article>`
-    );
+import { getNepalLandmarks } from "./nepalLandmarksData";
+import { nepalLandmarks } from ".nepalLandmarks.js";
+
+export const nepalLandmarksList = () => {
+    const allNepalLandmarks = getNepalLandmarks();
+    const DOMLocation = document.querySelector("#nepalLandmarksList");
+    let  nepalLandmarksHTMLRepresentations = "";
+
+    for(const oneThingFromNepalCelebrity of allNepalLandmarks) {
+        nepalLandmarksHTMLRepresentations += nepalLandmarks(oneThingFromNepalCelebrity);
+
+    }
+    console.log("nepalLandmarksHTMLRepresentations", nepalLandmarksHTMLRepresentations);
+    DOMLocation.innerHTML = nepalLandmarksHTMLRepresentations;
 };
