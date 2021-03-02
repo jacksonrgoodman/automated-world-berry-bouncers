@@ -7,7 +7,7 @@ export const celebrityList = () => {
 }
 
 const addsouthKoreaCelebritiesToDom = (southKoreaCelebrityArray) => {
-    const southKoreaCelebritiesHTMLContentElement = document.querySelector(".peopleBin");
+    const southKoreaCelebritiesHTMLContentElement = document.querySelector(".celebrityList");
     let southKoreaCelebritiesHTMLRepresentation = "";
     for (const oneSouthKoreanCelebrity of southKoreaCelebrityArray) {
         southKoreaCelebritiesHTMLRepresentation += southKoreaPeople(oneSouthKoreanCelebrity);
