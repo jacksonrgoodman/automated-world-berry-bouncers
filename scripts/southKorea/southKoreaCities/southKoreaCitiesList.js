@@ -7,7 +7,7 @@ export const CityList = () => {
 }
 
 const addsouthKoreaCitiesToDom = (southKoreaCityArray) => {
-    const southKoreaCitiesHTMLContentElement = document.querySelector(".citiesBin");
+    const southKoreaCitiesHTMLContentElement = document.querySelector(".cityList");
     let southKoreaCitiesHTMLRepresentation = "";
     for (const oneSouthKoreanCity of southKoreaCityArray) {
         southKoreaCitiesHTMLRepresentation += southKoreaCities(oneSouthKoreanCity);

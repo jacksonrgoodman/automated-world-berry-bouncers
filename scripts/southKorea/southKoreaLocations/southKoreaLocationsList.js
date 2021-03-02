@@ -7,7 +7,7 @@ export const LandmarksList = () => {
 };
 
 const addsouthKoreaLandmarksToDom = (southKoreaLandmarksArray) => {
-    const southKoreaLandmarksHTMLContentElement = document.querySelector(".landmarksBin");
+    const southKoreaLandmarksHTMLContentElement = document.querySelector(".landmarkList");
     let southKoreaLandmarksHTMLRepresentation = "";
     for (const oneSouthKoreanLandmark of southKoreaLandmarksArray) {
         southKoreaLandmarksHTMLRepresentation += southKoreaLandmarks(oneSouthKoreanLandmark);
