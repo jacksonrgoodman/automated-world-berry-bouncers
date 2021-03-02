@@ -1,4 +1,29 @@
+// a collection of iceland landmarks
+const icelandLandmarks = [
+    {
+        name: "Foo",
+        job: "Bar",
+        img: "Foo",
+        bio: "Bar"
+    },
+    {
+        name: "Foo",
+        job: "Bar",
+        img: "Foo",
+        bio: "Bar"
+    },
+    {
+        name: "Foo",
+        job: "Bar",
+        img: "Foo",
+        bio: "Bar"
+    }
+];
 
+// a function to return previous collection of landmarks
+export const getIcelandLandmarks = () => {
+    return icelandLandmarks;
+}
 
 
 /*
