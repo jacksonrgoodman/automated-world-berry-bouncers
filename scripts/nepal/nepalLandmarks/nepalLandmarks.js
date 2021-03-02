@@ -3,7 +3,7 @@ import { nepalLandmarks } from "./nepalLandmarksList.js";
 
 export const nepalLandmarksList = () => {
     const allNepalLandmarks = getNepalLandmarks();
-    const DOMLocation = document.querySelector(".nepalLandmarksList");
+    const DOMLocation = document.querySelector(".landmarkList");
     let  nepalLandmarksHTMLRepresentations = "";
 
     for(const oneThingFromNepalLandmarks of allNepalLandmarks) {

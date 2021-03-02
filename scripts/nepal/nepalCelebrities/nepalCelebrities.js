@@ -3,7 +3,7 @@ import { nepalCelebrities } from "./nepalCelebritiesList.js";
 
 export const nepalCelebritiesList = () => {
     const allNepalCelebrities = getNepalCelebrities ();
-    const DOMLocation = document.querySelector(".nepalCelebrityList");
+    const DOMLocation = document.querySelector(".celebrityList");
     let  nepalCelebrityHTMLRepresentations = "";
 
     for(const oneThingFromNepalCelebrity of allNepalCelebrities) {
