@@ -12,7 +12,7 @@ export const icelandLandmarksList = () => {
 
 const addIcelandLandmarksToDom = (icelandLandmarkArray) => {
     // Assigns HTML position to variable.
-    const icelandLandmarksContentElement = document.querySelector(".TESTlandmarks");
+    const icelandLandmarksContentElement = document.querySelector(".landmarkList");
 
     // Empty variable to hold HTML representation as it loops.
     let icelandLandmarksHTMLRep = ``;
