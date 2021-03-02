@@ -14,7 +14,10 @@ const southKoreaCelebrityList = [
     {
         name:"Lim Yo-hwan",
         job:"Gamer",
-        img: "yo-hwan.jpg",
+        img: "Yo-hwan.png",
         bio: "<p><strong>Lim Yo-hwan</strong>, known as <strong>`BoxeR`</strong>, is a former professional player of the real-time strategy computer game StarCraft.</p>"
     }
 ];
+export const getSouthKoreaCelebrities = () => {
+    return southKoreaCelebrityList;
+}

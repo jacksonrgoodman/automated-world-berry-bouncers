@@ -1,4 +1,4 @@
-const southKoreaCelebrityList = [
+const southKoreaCitiesList = [
     {
         name:"Seoul",
         population: "25 million",
@@ -18,3 +18,6 @@ const southKoreaCelebrityList = [
         desc: "The largest city on the island of the same name, Jeju’s warm, welcoming climate makes it a popular tourist destination. Many people head here during the summer to enjoy the fancy hotels, teeming casinos, and trendy bars."
     }
 ];
+export const getSouthKoreaCities = () => {
+    return southKoreaCitiesList;
+};

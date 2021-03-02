@@ -18,3 +18,6 @@ const southKoreaLandmarksList = [
         closestCity: "Yeongju City, SK"  
     }
 ];
+export const getSouthKoreaLandmarks = () => {
+    return southKoreaLandmarksList;
+}
