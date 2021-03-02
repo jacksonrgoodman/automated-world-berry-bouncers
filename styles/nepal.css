@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+}
+nav{
+    width:100%;
+}
+
+footer{
+    width:100%;
+    text-align: center;
+}
+h1{
+text-align:center;
+width:100%
+}
+
+.headlineImage {
+    display: flex;
+    justify-content: center;
+   
+}
+.headline{
+    display: flex;
+    justify-content: center;
+}
+.articleBin{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.citiesBox{
+    display: flex;
+    width:100%;
+}
+.cityList{
+    display: flex;
+    flex-direction: row;
+    
+}
+.landmarkBox{
+    display: flex;
+    width:100%;
+ 
+}
+.landmarkList{
+    display: flex;
+    flex-direction: row;
+    
+}
+.celebrityBox{
+    display: flex;
+    width:100%;
+}
+.celebrityList{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.articleBin img{
+    object-fit: cover;
+    height:300px;
+    width:auto;
+}
+.cities-card{
+    padding: 3em;;
+}
+.landmarks-card{
+    padding: 3em;
+}
+.celebrity-card{
+    padding:3em;
+}
+.city-image{
+    display: flex;
+    justify-content: center;
+}
+.landmark-image{
+    display: flex;
+    justify-content: center;
+}
+.celebrity-image{
+    display: flex;
+    justify-content: center;
+}
