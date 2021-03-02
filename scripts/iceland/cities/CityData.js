@@ -1,34 +1,22 @@
-/*
-<li>Reykjavik</li>
-li>Akureyri</li>
-<li>Húsavík</li>
-<li>Vík í Mýrdal</li>
-<li>Seyðisfjörður</li>
-<li>Siglufjörður</li>
-<li>Kópavogur</li>
-<li>Hafnarfjörður</li>
-<li>Selfoss</li>
-*/
-
 // a collection of iceland cities
 const icelandCities = [
     {
-        name: "Foo",
-        job: "Bar",
-        img: "Foo",
-        bio: "Bar"
+        name: "Reykjavik",
+        population: "",
+        img: "reykjavik.jpg",
+        desc: ""
     },
     {
-        name: "Foo",
-        job: "Bar",
-        img: "Foo",
-        bio: "Bar"
+        name: "Akureyri",
+        population: "",
+        img: "akureyri.jpg",
+        desc: ""
     },
     {
-        name: "Foo",
-        job: "Bar",
-        img: "Foo",
-        bio: "Bar"
+        name: "Húsavík",
+        population: "",
+        img: "husavik.jpg",
+        desc: ""
     }
 ];
 

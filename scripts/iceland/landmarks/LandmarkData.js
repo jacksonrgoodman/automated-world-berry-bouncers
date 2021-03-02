@@ -1,22 +1,22 @@
 // a collection of iceland landmarks
 const icelandLandmarks = [
     {
-        name: "Foo",
-        job: "Bar",
-        img: "Foo",
-        bio: "Bar"
+        name: "Solfarid Sculpture",
+        desc: "",
+        img: "solfarid.jpg",
+        closestCity: "Reykjavík"
     },
     {
-        name: "Foo",
-        job: "Bar",
-        img: "Foo",
-        bio: "Bar"
+        name: "The Blue Lagoon",
+        desc: "",
+        img: "bluelagoon.jpg",
+        closestCity: ""
     },
     {
-        name: "Foo",
-        job: "Bar",
-        img: "Foo",
-        bio: "Bar"
+        name: "Svartifoss",
+        desc: "",
+        img: "svartifoss.jpg",
+        closestCity: ""
     }
 ];
 
@@ -24,14 +24,3 @@ const icelandLandmarks = [
 export const getIcelandLandmarks = () => {
     return icelandLandmarks;
 }
-
-
-/*
-<li>Solfarid Sculpture</li>
-<li>Hvitserkur - The Dinosaur Rock</li>
-<li>The Blue Lagoon</li>
-<li>Northern Lights</li>
-<li>Svartifoss</li>
-<li>Perlan</li>
-<li>Akranes Lighthouse</li>
-*/
