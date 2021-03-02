@@ -5,7 +5,7 @@ import { nepalCities } from "./nepalCitiesList.js";
 
 export const nepalCitiesList = () => {
     const allNepalCities = getNepalCities ();
-    const DOMLocation = document.querySelector(".nepalCitiesList");
+    const DOMLocation = document.querySelector(".cityList");
     let  nepalCitiesHTMLRepresentations = "";
 
     for(const oneThingFromNepalCities of allNepalCities) {
