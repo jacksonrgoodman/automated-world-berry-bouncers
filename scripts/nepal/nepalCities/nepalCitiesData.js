@@ -1,4 +1,4 @@
-const nepalCityObject = [
+const nepalCityList = [
 {
     name: "Kathmandu",
     population: "1,442,271",
@@ -15,11 +15,11 @@ const nepalCityObject = [
     name: "Bhaktapur",
     population: "81,728",
     desc: "Known as the city of temples, has the best-preserved palace courtyards in Nepal",
-    img: "bhaktapur",
+    img: "bhaktapur.jpg",
 },
 
 ];
 
 export const getNepalCities = () => {
-    return nepalCityObject;
+    return nepalCityList;
 };

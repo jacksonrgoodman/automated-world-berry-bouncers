@@ -10,6 +10,6 @@ export const nepalLandmarksList = () => {
         nepalLandmarksHTMLRepresentations += nepalLandmarks(oneThingFromNepalLandmarks);
 
     }
-    console.log("nepalLandmarksHTMLRepresentations", nepalLandmarksHTMLRepresentations);
+    // console.log("nepalLandmarksHTMLRepresentations", nepalLandmarksHTMLRepresentations);
     DOMLocation.innerHTML += nepalLandmarksHTMLRepresentations;
 };
