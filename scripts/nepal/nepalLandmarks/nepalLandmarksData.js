@@ -1,4 +1,4 @@
-const nepalLandmarkObject = [
+const nepalLandmarkList = [
 {
     name: "Mount Everest",
     desc: " On the border of Nepal and China lies the worlds highest mountain!",
@@ -8,7 +8,7 @@ const nepalLandmarkObject = [
 {
     name: "Lumbini",
     desc:"Lumbini houses the Maya Devi temple and its Sacred Garden, known as the birthplace of the Shakyamuni Buddha",
-    img: "lumbini",
+    img: "lumbini.jpg",
     closestCity: "Gorakhpur",
 },
 {
@@ -19,5 +19,5 @@ const nepalLandmarkObject = [
 },
 ];
 export const getNepalLandmarks = () => {
-    return nepalLandmarkObject;
+    return nepalLandmarkList;
 };

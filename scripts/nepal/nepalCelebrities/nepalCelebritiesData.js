@@ -1,4 +1,4 @@
-const nepalCelebrityObject = [
+const nepalCelebrityList = [
 {
     name: "Guatama Buddha",
     job: "philosopher",
@@ -20,5 +20,5 @@ const nepalCelebrityObject = [
 
 ];
 export const getNepalCelebrities = () => {
-    return nepalCelebrityObject;
+    return nepalCelebrityList;
 };

@@ -12,6 +12,6 @@ export const nepalCitiesList = () => {
         nepalCitiesHTMLRepresentations += nepalCities(oneThingFromNepalCities);
 
     }
-    console.log("nepalCitiesHTMLRepresentations", nepalCitiesHTMLRepresentations);
+    // console.log("nepalCitiesHTMLRepresentations", nepalCitiesHTMLRepresentations);
     DOMLocation.innerHTML += nepalCitiesHTMLRepresentations;
 };

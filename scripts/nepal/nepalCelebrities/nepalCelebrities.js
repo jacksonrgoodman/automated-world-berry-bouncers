@@ -10,6 +10,6 @@ export const nepalCelebritiesList = () => {
         nepalCelebrityHTMLRepresentations += nepalCelebrities(oneThingFromNepalCelebrity);
 
     }
-    console.log("nepalCelebrityHTMLRepresentations", nepalCelebrityHTMLRepresentations);
+    // console.log("nepalCelebrityHTMLRepresentations", nepalCelebrityHTMLRepresentations);
     DOMLocation.innerHTML += nepalCelebrityHTMLRepresentations;
 };
