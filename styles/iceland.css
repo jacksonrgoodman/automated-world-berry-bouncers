@@ -1,0 +1,148 @@
+/* HTML Tag Styling 
+-------------------------------------*/
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section h3 {
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+/* CSS Styling 
+-------------------------------------*/
+.navbin {
+    width: 100%;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navChoice .navIceland {
+
+}
+
+.navChoice .navNepal, .navChoice .navSouthKorea {
+
+}
+
+.headlineImage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.headline {
+    width: 100%;
+    text-align: center;
+}
+
+.articleBin {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    border: blueviolet dotted;
+}
+
+.articleBin div {
+    border: dotted blue;
+    display: flex;
+    justify-content: center;
+}
+
+.articleBin img {
+    object-fit: cover;
+    width: 170px;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    border: dotted pink;
+}
+
+.articleBin h3, .articleBin p {
+    justify-content: center;
+    width: 100%;
+    border: deepskyblue dotted;
+}
+
+.citiesBox {
+    width: 100%;
+    justify-content: center;
+}
+
+.cityList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cities-card {
+    margin: 3em;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.landmarkBox {
+
+}
+
+.landmarkList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.landmarks-card {
+    margin: 3em;
+    width: 25%;
+}
+
+.celebrityBox {
+    width: 100%;
+}
+
+.celebrityList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.people-card {
+    margin: 3em;
+    width: 25%;
+}

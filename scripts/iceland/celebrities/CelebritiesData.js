@@ -10,7 +10,7 @@ const icelandCelebrities = [
         name: "Stefan Karl Stefansson",
         job: "actor",
         img: "stefan.jpg",
-        bio: "Born in 1975, Stefán was a actor known for his iconic role as 'Robbie Rotten in the hit childen's television show, <i>Lazy Town<i>."
+        bio: "Born in 1975, Stefán was a actor known for his iconic role as 'Robbie Rotten in the hit childen's television show, 'Lazy Town'."
     },
     {
         name: "Leif Erikson",
