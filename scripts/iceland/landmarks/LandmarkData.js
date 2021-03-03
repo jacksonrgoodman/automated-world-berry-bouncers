@@ -2,21 +2,21 @@
 const icelandLandmarks = [
     {
         name: "Solfarid Sculpture",
-        desc: "",
+        desc: "Translated as the Sun Voyager, this sculpture was designed by Jón Gunnar Árnason, and was designed to convey the promise of adventure, progress and freedom.",
         img: "solfarid.jpg",
         closestCity: "Reykjavík"
     },
     {
         name: "The Blue Lagoon",
-        desc: "",
+        desc: "One of the most visited natural attractions in Iceland, this spa is actual man made, a byproduct of a nearby geothermal plant.",
         img: "bluelagoon.jpg",
-        closestCity: ""
+        closestCity: "Grindavik"
     },
     {
         name: "Svartifoss",
-        desc: "",
+        desc: "Located in Vatnajökull National Park, this waterfall is known for it's sharp dark lava columns.",
         img: "svartifoss.jpg",
-        closestCity: ""
+        closestCity: "Kirkjubæjarklaustur"
     }
 ];
 
