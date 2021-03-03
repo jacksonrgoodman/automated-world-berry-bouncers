@@ -1,3 +1,8 @@
+/* Font Importing 
+-------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&display=swap');
+
+
 /* HTML Tag Styling 
 -------------------------------------*/
 * {
@@ -86,6 +91,7 @@ footer {
     width: 100%;
     text-align: center;
     padding-bottom: 2em;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .articleBin {
@@ -114,6 +120,10 @@ footer {
     width: 100%;
 }
 
+.articleBin h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
 .articleBin p {
     padding: .25em;
 }
@@ -136,6 +146,7 @@ footer {
     padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
+    font-family: 'Arvo', serif;
 }
 
 .landmarkBox {
@@ -155,6 +166,7 @@ footer {
     padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
+    font-family: 'Arvo', serif;
 }
 
 .celebrityBox {
@@ -172,4 +184,5 @@ footer {
     padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
+    font-family: 'Arvo', serif;
 }
