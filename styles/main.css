@@ -80,7 +80,6 @@ footer {
     width: 100%;
     text-align: center;
     justify-content: center;
-    border: 2px solid red;
 }
 
 .headlineImage img {
@@ -94,7 +93,6 @@ footer {
     text-align: center;
     padding-bottom: 2em;
     font-family: 'Bebas Neue', cursive;
-    border: 2px solid blue;
 }
 
 .articleBin {
@@ -187,4 +185,7 @@ footer {
     width: 25%;
     color: white;
     font-family: 'Arvo', serif;
+}
+.last-card {
+    justify-content: center;
 }
