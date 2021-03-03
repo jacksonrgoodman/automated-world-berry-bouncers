@@ -1,106 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
-
-/*Typography
---------------------------------------------------------------*/
-/* * {
-    border: 0;
-    margin: 0;
-}
-
-body,
-button,
-input,
-select,
-textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-    text-align: center;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
-}
-
-header h1,
-.navBin,
-.navBar,
-.headlineImage,
-.articleBin,
-.citiesBox,
-.cityList,
-.landmarkBox,
-.landmarkList,
-.celebrityBox,
-.celebrityList,
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-.articleBin{
-    flex-direction: column;
-}
-.citiesBox, 
-.landmarkBox, 
-.celebrityBox,
-header h1 {
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-header {
-    border: 2px solid blue;
-}
-
-main {
-    border: 2px solid green;
-}
-.headlineImage img{
-    width: 50%;
-    border: 2px solid red;
-}
-.headline {
-    border: 2px solid yellowgreen;
-}
-.articleBin {
-    border: 2px solid purple;
-}
-
-.citiesBox, .landmarkBox, .celebrityBox{
-    flex-wrap: wrap-reverse;
-    border: 2px solid orangered;
-}
-.people-card {
-    justify-content: space-around;
-    flex-grow: initial;
-    border:2px dotted lawngreen;
-}
-.cities-image,
-.cities-population,
-.cities-desc,
-.landmarks-image,
-.landmarks-desc,
-.landmarks-city,
-.people-image,
-.people-name,
-.job,
-.bio {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    flex-direction: column;
-    border: 2px dotted pink;
-}
-.landmarks-image,
-.people-image,
-.cities-image {
-    justify-content: center;
-    width: 100%;
-    justify-content: space-around;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&family=Fascinate&family=Vidaloka&display=swap');
 
 /* HTML Tag Styling 
 -------------------------------------*/
@@ -179,6 +77,8 @@ footer {
     width: 100%;
     text-align: center;
     padding-bottom: 2em;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
 .articleBin {
@@ -266,4 +166,5 @@ footer {
     margin: 3em;
     width: 25%;
     color: white;
+    font-family: 'Arvo', serif;
 }

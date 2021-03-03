@@ -1,7 +1,7 @@
 const southKoreaCelebrityList = [
     {
         name:"PSY",
-        job:"musician",
+        job:"Musician",
         img: "psy.jpg",
         bio: "<p><strong>Park Jae-sang</strong>, known professionally as <strong>Psy</strong>, is a South Korean singer, rapper, songwriter, and record producer.</p>"
     },
