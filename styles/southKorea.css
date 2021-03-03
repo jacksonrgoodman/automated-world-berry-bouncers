@@ -50,15 +50,27 @@ footer {
 }
 
 .navbar {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding: 0.50em;
+    font-size: 150%;
 }
 
-.navChoice .navIceland {
-
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+	text-decoration: none;
 }
 
-.navChoice .navNepal, .navChoice .navSouthKorea {
-
+.navbar a:hover {
+    background-color: white;
+    display: block;
+    color: rgb(63, 63, 63);
+    padding: 14px 16px;
+	text-decoration: none;
 }
 
 .headlineImage {
@@ -105,8 +117,12 @@ footer {
 .articleBin h3, .articleBin p {
     justify-content: center;
     width: 100%;
-}
 
+}
+.articleBin h3 {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
 .articleBin p {
     padding: .25em;
 }
