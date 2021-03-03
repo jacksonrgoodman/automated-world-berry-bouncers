@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&family=Fascinate&family=Vidaloka&display=swap');
+
 /* HTML Tag Styling 
 -------------------------------------*/
 * {
@@ -28,6 +30,7 @@ header h1 {
 main {
     display: flex;
     flex-wrap: wrap;
+    width:100%;s
 }
 
 section h3 {
@@ -48,15 +51,27 @@ footer {
 }
 
 .navbar {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding: 0.50em;
+    font-size: 150%;
 }
 
-.navChoice .navIceland {
-
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+	text-decoration: none;
 }
 
-.navChoice .navNepal, .navChoice .navSouthKorea {
-
+.navbar a:hover {
+    background-color: white;
+    display: block;
+    color: rgb(63, 63, 63);
+    padding: 14px 16px;
+	text-decoration: none;
 }
 
 .headlineImage {
@@ -74,6 +89,7 @@ footer {
     width: 100%;
     text-align: center;
     padding-bottom: 2em;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .articleBin {
@@ -101,6 +117,11 @@ footer {
     justify-content: center;
     width: 100%;
 }
+.articleBin h3{
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+
+}
 
 .articleBin p {
     padding: .25em;
@@ -124,6 +145,7 @@ footer {
     padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
+    font-family: 'Arvo', serif;
 }
 
 .landmarkBox {
@@ -143,6 +165,7 @@ footer {
     padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
+    font-family: 'Arvo', serif;
 }
 
 .celebrityBox {
@@ -160,6 +183,8 @@ footer {
     padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
+    font-family: 'Arvo', serif;
+
 }
 .celebrity-card img{
     height:450px;
