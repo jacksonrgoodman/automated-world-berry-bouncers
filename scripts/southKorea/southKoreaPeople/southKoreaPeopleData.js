@@ -8,7 +8,7 @@ const southKoreaCelebrityList = [
     {
         name:"Jun Ji-hyun",
         job:"Actor",
-        img: "ji-hyun.jpg",
+        img: "ji-hyun2.jpg",
         bio: "<p><strong>Jun Ji-hyun</strong>, also known by her English name <strong>Gianna Jun</strong>, is a South Korean actress.</p>"
     },
     {
