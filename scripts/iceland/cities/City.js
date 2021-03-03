@@ -4,8 +4,8 @@ export const icelandCitiesPost = (icelandCitiesObject) => {
         `<article class ="cities-card">
             <div><img class="cities-image" src ="../../images/iceland/${icelandCitiesObject.img}" alt="${icelandCitiesObject.name}"/></div>
             <h3 class="cities-name">${icelandCitiesObject.name}</h3>
-            <p class="cities-job">${icelandCitiesObject.job}</p>
-            <p class="cities-bio">${icelandCitiesObject.bio}</p>
+            <p class="cities-population">Population: ${icelandCitiesObject.population}</p>
+            <p class="cities-desc">${icelandCitiesObject.desc}</p>
         </article>`        
     )
 } 

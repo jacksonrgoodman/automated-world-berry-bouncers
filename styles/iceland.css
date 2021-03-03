@@ -38,6 +38,7 @@ section h3 {
 footer {
     width: 100%;
     text-align: center;
+    padding-bottom: 0.5em;
 }
 
 /* CSS Styling 
@@ -64,9 +65,15 @@ footer {
     justify-content: center;
 }
 
+.headlineImage img {
+    width: 15%;
+    padding: 1em;
+}
+
 .headline {
     width: 100%;
     text-align: center;
+    padding-bottom: 2em;
 }
 
 .articleBin {
@@ -74,60 +81,66 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-
-    border: blueviolet dotted;
 }
 
 .articleBin div {
-    border: dotted blue;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .articleBin img {
     object-fit: cover;
-    width: 170px;
-    height: 155px;
+    width: 350px;
+    height: 255px;
     display: flex;
     justify-content: center;
-    border: dotted pink;
 }
 
 .articleBin h3, .articleBin p {
     justify-content: center;
     width: 100%;
-    border: deepskyblue dotted;
+}
+
+.articleBin p {
+    padding: .25em;
 }
 
 .citiesBox {
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cityList {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .cities-card {
+    background-color: rgb(143, 218, 236);
+    padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .landmarkBox {
-
+    width: 100%;
+    justify-content: center;
 }
 
 .landmarkList {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .landmarks-card {
+    background-color: rgb(143, 218, 236);
+    padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
 }
@@ -143,6 +156,8 @@ footer {
 }
 
 .people-card {
+    background-color: rgb(143, 218, 236);
+    padding: 2em 1.5em;
     margin: 3em;
     width: 25%;
 }

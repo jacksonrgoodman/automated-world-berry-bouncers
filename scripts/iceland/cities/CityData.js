@@ -2,21 +2,21 @@
 const icelandCities = [
     {
         name: "Reykjavik",
-        population: "",
+        population: "131,136",
         img: "reykjavik.jpg",
-        desc: ""
+        desc: "Believed to be the first major settlement in Iceland, this capital city lies along the Faxaflói bay."
     },
     {
         name: "Akureyri",
-        population: "",
+        population: "18,191",
         img: "akureyri.jpg",
-        desc: ""
+        desc: "An important port in northern Iceland, this town serves as a economic hub due to it's comparatively pleasant climate for fishing and shipping."
     },
     {
         name: "Húsavík",
-        population: "",
+        population: "2,307",
         img: "husavik.jpg",
-        desc: ""
+        desc: "This small town has become a tourist destination for determined whale-watchers."
     }
 ];
 
