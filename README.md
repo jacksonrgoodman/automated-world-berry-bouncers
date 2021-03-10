@@ -16,9 +16,9 @@ the very talented [Colten](https://github.com/coltmay) and [Cody](https://github
 
 
 
-Outlione of project goals and requirements:
+#Outlione of project goals and requirements:
 
-# Automating the World
+## Automating the World
 
 Your task in this group project is to use your newfound skills of automation, and rebuild your travel brochure site using objects, arrays, components, modules, CSS selectors, Flexbox, semantic HTML, and data providers.
 
@@ -26,7 +26,7 @@ Each city, each landmark, and each famous citizen must be represented in applica
 
 A suggestion is to create multiple sub-directories under `scripts`. If, for example, your team chose Turkey, Morocco, Tanzania, and Indonesia, you would have the following main modules.
 
-## Review of Requirements from Hello World
+### Review of Requirements from Hello World
 
 Components.
 
@@ -38,7 +38,7 @@ Components.
 1. A list of famous citizens. You can pick your favorites.
 1. A footer with copyright information.
 
-## Requirements
+### Requirements
 
 1. You must use semantic HTML tags
 1. You must use CSS imports
@@ -48,10 +48,10 @@ Components.
 1. You must do all work on a feature branch, never on `main`.
 1. Validate your HTML. Use a tool: [Validator](https://validator.w3.org/)
 
-## User Experience
+##3 User Experience
 
 1. Your team must decide on a consistent experience across all pages. Fonts, color scheme, layout, and structure.
 ![Hello World Layout](./hello-world-wireframe.png)
 
-## Stretch Goal
+### Stretch Goal
 1. Using [Sharethrough](https://headlines.sharethrough.com/), analyze your headline with the country name. Make adjustments to the copy to make it more engaging.
