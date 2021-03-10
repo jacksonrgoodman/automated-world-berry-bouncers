@@ -16,7 +16,7 @@ the very talented [Colten](https://github.com/coltmay) and [Cody](https://github
 
 
 
-#Outlione of project goals and requirements:
+# Outline of Project Goals and Requirements:
 
 ## Automating the World
 
